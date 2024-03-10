@@ -21,7 +21,7 @@ function App() {
         } else {
           setSecond(second+1)
         }
-      }, 10)
+      }, 1000)
     }
     return ()=> clearInterval(interval)
   }, [active, second])
